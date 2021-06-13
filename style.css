@@ -1,0 +1,157 @@
+.bg-box-1{
+    background-color:white;
+    width:300px;
+    height:200px;
+    opacity:0.2;
+    border-radius: 10px;
+    transform: rotate(60deg) scale(1.5,1.5);
+    position:absolute;
+    left:-200px;
+}
+.bg-box-2{
+    background-color:white;
+    width:300px;
+    height:300px;
+    opacity:0.2;
+    border-radius: 10px;
+    transform: rotate(60deg) scale(1.5,1.5);
+    position:absolute;
+    bottom:-250px;
+    left:250px;
+}
+.bg-box-3{
+    background-color:grey;
+    width:300px;
+    height:300px;
+    opacity:0.2;
+    border-radius: 10px;
+    transform: rotate(60deg) scale(1.5,1.5);
+    position:absolute;
+    right:-250px;
+    top:100px;
+}
+.login{
+    width:300px;
+    height:500px;
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -150px;
+    background-color: white;
+    border-radius: 10px;
+}
+body{
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+  text-align: center; 
+  font-weight:700; 
+  font-size: x-large;
+}
+.form-label{
+    font-size: small;
+}
+.form-control{
+    font-family: Helvetica, FontAwesome, sans-serif;
+    font-size: small;
+}
+.form-control:focus{
+    box-shadow: none;
+    outline:none;
+}
+.username{
+    margin: 10px;
+}
+#username-input{
+    border-radius: 0px;
+    border-left: none;
+    border-top:none;
+    border-right:none;
+}
+.password{
+    margin:10px;
+}
+#password-input{
+    border-radius: 0px;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+}
+
+#forgot-password{
+    text-align: right;
+    margin-left: 125px;
+    color:gray;
+    text-decoration: none;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, cyan 0%, fuchsia  51%, cyan  100%)
+}
+.btn-grad {
+   margin: 0px;
+   padding: 5px 90px;
+   text-align: center;
+   font-size: small;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 20px;
+   display: block;
+   border:none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color:white;
+   text-decoration: none;
+ }
+
+#sign-up-1{
+    font-size: smaller;
+    color: gray;
+    text-align: center;
+    margin-top: 30px;
+}
+#sign-up-2{
+    font-size: smaller;
+    color: gray;
+    text-align: center;
+    padding:0px;
+}
+.signup{
+    height:30px;
+    width:129px;
+    display:block;
+    margin:auto;
+    margin-bottom: 40px;
+}
+#facebook{
+    height:30px;
+    margin:4px;
+}
+#twitter{
+    height:30px;
+    margin:4px;
+}
+#google{
+    height:30px;
+    margin:4px;
+}
+.signup-link{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+    letter-spacing: 0.05px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding:20px 85px;
+}
+
